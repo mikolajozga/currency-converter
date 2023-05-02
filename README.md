@@ -22,3 +22,5 @@ The **CURRENCY CONVERTER** is a simple appliacation that will help ypu with conv
 #### Instruction
 
 My page is very simple to use. First of all you need to choose a currency then enter the amount of PLN you want to convert to the selected currency and then press the button "Przelicz". And that's it!
+
+**Link to the page: https://mikolajozga.github.io/currency-converter/**
