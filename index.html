@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Currency converter</title>
     <link rel="icon" href="images/dollar-flat.png">
     <meta property="og:image" content="images/currencyimage.png">
     <link href="css/form.css" rel="stylesheet">
@@ -21,50 +21,44 @@
     <script defer src="js/script.js"></script>
 </head>
 
-<body>
+<body class="body">
 
-    <div class="element">
+    <div class="container">
 
-        <div class="container">
+        <h1 class="header">Przelicz PLN na daną walutę!</h1>
 
-            <h1 class="header">Przelicz PLN na daną walutę!</h1>
-    
-            <form class="form js-form">
-                <fieldset class="form__fieldset">
-                    <legend class="form__legend">Kantor</legend>
-                    <p>
-                        <label>
-                            <span class="form__labelText">
-                                Wybierz walutę:
-                            </span>
-                            <select class="form__select js-currencyRate">
-                                <option value="EUR">EUR</option>
-                                <option value="USD">USD</option>
-                                <option value="GBP">GBP</option>
-                            </select>
-                        </label>
-                    </p>
-                    <p>
-                        <label>
-                            <span class="form__labelText">
-                                Wpisz ilość*:
-                            </span>
-                            <input class="form__field js-amount" type="number" step="0.01" required
-                                placeholder="Ilość w PLN">
-                        </label>
-                    </p>
-                    <p class="js-result result">
-    
-                    </p>
-                </fieldset>
-                <button class="form__button">Przelicz!</button>
-            </form>
-    
-        </div>
+        <form class="form js-form">
+            <fieldset class="form__fieldset">
+                <legend class="form__legend">Kantor</legend>
+                <p>
+                    <label>
+                        <span class="form__labelText">
+                            Wybierz walutę:
+                        </span>
+                        <select class="form__select js-currencyRate">
+                            <option value="EUR">EUR</option>
+                            <option value="USD">USD</option>
+                            <option value="GBP">GBP</option>
+                        </select>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        <span class="form__labelText">
+                            Wpisz ilość (w PLN)*:
+                        </span>
+                        <input class="form__field js-amount" type="number" step="0.01" required
+                            placeholder="Ilość w PLN">
+                    </label>
+                </p>
+                <p class="js-result result">
+
+                </p>
+            </fieldset>
+            <button class="form__button">Przelicz!</button>
+        </form>
 
     </div>
-
-    
 
 </body>
 
