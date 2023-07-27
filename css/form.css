@@ -1,5 +1,5 @@
 .header {
-    background-color: rgb(144, 253, 1);
+    background-color: rgb(94, 165, 1);
     text-align: center;
     color: white;
     border-radius: 8px;
@@ -14,7 +14,7 @@
 }
 
 .form__legend {
-    background: rgb(144, 253, 1);
+    background: rgb(94, 165, 1);
     color: white;
     padding: 10px;
     border-radius: 8px;
@@ -47,7 +47,7 @@
 
 .form__button {
     width: 100%;
-    background-color: rgb(144, 253, 1);
+    background-color: rgb(94, 165, 1);
     color: white;
     padding: 8px;
     border: none;
@@ -60,14 +60,14 @@
 }
 
 .form__button:active {
-    background-color: hsl(86, 99%, 30%);
+    background-color: hsl(86, 99%, 60%);
 }
 
 .result {
     text-align: center;
     padding: 5px;
     font-size: 20px;
-    color: rgb(204, 2, 204);
+    color: rgb(94, 165, 1);
     margin-top: 35px;
 }
 
