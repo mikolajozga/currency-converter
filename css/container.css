@@ -1,6 +1,7 @@
 .container {
     flex-basis: 700px;
     padding: 40px;
+    padding-top: 23px;
     margin: 20px;
     background: white;
     border-radius: 20px;
