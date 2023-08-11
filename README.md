@@ -4,7 +4,7 @@
 
 ![currencyanimation](https://user-images.githubusercontent.com/127400427/233354852-83fa4310-4413-4be3-9c6f-e2394d811be2.gif)
 
-The **CURRENCY CONVERTER** is a simple appliacation that will help ypu with convert PLN to the three most popular currencies.
+The **CURRENCY CONVERTER** is a simple appliacation that will help you with convert PLN to the three most popular currencies.
 
 ### The three currencies i chose are:
 - EUR
